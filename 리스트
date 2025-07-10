@@ -1,0 +1,28 @@
+# 리스트 = [값1, 값2, ...]
+
+myList = ['오에스','몽쉘','초코파이'] # 순서 고정
+myList = ['오에스','몽쉘','초코파이','초코파이','초코파이'] # 중복허용
+
+yourList = [1, 2, 3.14, True, False, '아무거나']
+emptyList = [] # 빈 리스트
+
+print(myList[0]) # 인덱스에 해당하는 값
+print(myList[0:2]) # 슬라이싱
+
+print('몽쉘' in myList) # 리스트에 포함되어 있는가
+print(len(myList)) #  리스트 인덱스 개수
+
+myList[1] = '몽쉘카카오' # 해당 인덱스 값 수정
+print(myList)
+
+myList.append('빅파이') # 값 추가
+print(myList)
+
+myList.remove('오예스') # 값 삭제
+print(myList)
+
+myList = ['오에스','몽쉘','초코파이']
+yourList = ['빅파이', '오뜨']
+
+myList.extend(yourList) # 리스트 확장
+print(myList)

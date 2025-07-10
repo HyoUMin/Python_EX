@@ -1,0 +1,25 @@
+#  튜플 : 읽기 전용 메소드
+
+myTuple = ('오예스', '몽쉘', '초코파이') # 패킹
+myTuple = ('오예스', '몽쉘', '초코파이','초코파이','초코파이')
+
+yourTuple = (1, 2, 3.14, True, False, '아무거나')
+
+print(myTuple[0]) # 인덱스에 해당하는 값
+print(myTuple[0:2]) # 슬라이싱
+
+print('몽쉘' in myTuple) # 튜플에 포함되어 있는지
+print(len(myTuple)) # 튜플의 개수
+
+# 튜플 메소드
+# count() 어떤 값이 몇 개 있는지
+# index() 어떤 값이 어디에 있는지
+
+(pie1, pie2, pie3) = myTuple # 언패킹
+
+pie1 = '오예스'
+pie2 = '몽쉘'
+pie3 = '초코파이'
+
+number = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+(one, two, *others) = numbers # one -> 1, two -> 2, *others -> 나머지 리스트 형태로

@@ -1,0 +1,27 @@
+# 산술 연산자 + - * / % // **
+
+print(5 + 2) # 더하기
+print(5 - 2) # 뺴기
+print(5 * 2) # 곱하기
+print(5 / 2) # 나누기
+print(5 % 2) # 나머지
+print(5 // 2) # 몫
+print(5 ** 2) # 거듭제곱
+
+# 비교 연산자
+print(5 > 2) # 크다 실행 결과 True
+print(5 >= 2) # 크거나 같다 실행결과 True
+print(5 < 2) # 작다 실행결과 False
+print(5 <= 2) # 작거나 같다 실행결과 False
+print(5 == 2) # 같다 실행결과 False
+print(5 != 2) # 같지 않다 실행결과 True
+
+# 논리 연산자
+print(3 < 5 and 7 < 5) # 둘 다 참이면 True
+print(3 < 5 or 7 > 5) # 하나라도 참이면 True
+print(not 3 < 5) # 반전
+
+# 멤버 연산자
+print('c' in 'cat') # 포함
+print('c' not in 'cat') # 미포함
+

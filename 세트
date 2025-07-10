@@ -1,0 +1,25 @@
+# 세트 = {값1, 값2, ...}
+A = {'돈까스', '보쌈', '제육덮밥'}
+B = {'짬뽕','초밥', '제육덮밥'}
+
+print(A.intersection(B)) # A, B 교집합
+print(A.union(B)) # A, B 합집합
+
+mySet = {'돈가스', '보쌈', '제육덮밥'}
+
+mySet.add('닭갈비') # 값 추가
+print(mySet)
+
+mySet.remove('제육덮밥') # 값 삭제
+print(mySet)
+
+mySet.clear() # 모든 값 삭제
+print(mySet)
+
+# 세트 메소드 
+# copy() 세트복사
+# discard() 값 삭제(해당 값이 없어도 에러 발생 안함)
+# isdisjoint() 두 세트에 겹치는 값이 없는지 여부
+# issubset() 다른 세트의 부분 집합인지 여부
+# issuperset() 다른 세트의 상위 집합인지 여부
+# update() 다른 세트 값들을 더함

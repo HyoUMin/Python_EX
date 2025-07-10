@@ -1,0 +1,29 @@
+snack = '꿀꽈배기'
+two = '2개'
+
+juseyo = snack + two
+juseyo += '주세요' # joseyo = joseyo + '주세요'
+
+num = 3
+num += 2 # num = num + 2
+
+# 현재 num은 5
+
+num -= 1 # num은 4
+num *= 2 # num은 8
+num /= 4 # num은 2.0
+
+# 길이
+print(len(snack)) # 4
+
+# 여러 줄 문자
+snack = '''꿀꽈배기는
+너무
+맛있어요'''
+
+# 숫자와 문자 곱하기
+print('-' * 10) # '-' 10번 출력
+print('Nado')
+print('-' * 10)
+
+

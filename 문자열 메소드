@@ -1,0 +1,29 @@
+#  메소드
+#  킄래스 내에 정의된 어떤 동작, 기능을 하는 코드들의 묶음
+
+letter = 'how are YOU?'
+
+print(letter.lower()) # 모든 내용을 소문자로
+print(letter.upper()) # 모든 내용을 대문자로
+
+print(letter.capitalize()) # 첫 글자만 대문지로
+print(letter.title()) # 각 단어들의 첫 글자만 대문자로
+print(letter.swapcase()) # 대소문자를 뒤바꾸기
+
+print(letter.split()) # 문자열 나누기
+
+print(letter.count('how')) # how가 몇 번 쓰였는지
+
+s = '나도고등학교'
+print(s.startwith('나도')) # '나도'로 시작하는지
+print(s.endswith('초등학교')) # '초등학교'로 끝나는지
+
+s = '...나도고등학교...'
+print(s.strip('.')) # 앞 뒤로 불필요한 부분 제거
+
+s = '나도고등학교'
+print(s.replace('고등학교','고교') # 고등학교를 고교로 변경
+
+print(s.find('학교')) # 학교 글자는 어디에
+print(s.center(10,'-')) # 다른 문자들 사이에 가운데로
+
